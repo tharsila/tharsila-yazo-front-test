@@ -10,8 +10,12 @@ export const MenuItem = styled.div<PropsButton>`
   gap: 8px;
   padding: 0;
   margin-bottom: 15px;
-  cursor: pointer;
   font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    filter: brightness(150%);
+  }
 
   ${props => {
     if (props.type === 'lightRed') {

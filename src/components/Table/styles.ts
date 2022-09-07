@@ -32,6 +32,7 @@ export const Table = styled.table `
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 5px 5px;
+    cursor: pointer;
   }
   
 `
