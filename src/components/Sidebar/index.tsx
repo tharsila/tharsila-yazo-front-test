@@ -13,22 +13,21 @@ const Sidebar = () => {
   const [isActive, setIsActive] = useState(false)
 
   return (
-    <C.Container>
-      <C.Sidebar>
-        <img src={logo} className="logo" alt="logo da Yazo" />
-        <nav>
-          <ul>
-            <SidebarItem icon={dashboard} text="Dashboard"/>
-            <SidebarItem icon={projects} text="Meus projetos"/>
-            <SidebarItem icon={users} text="Membros"/>
-            <SidebarItem icon={config} text="Configurações"/>
-          </ul>
-        </nav>
-        <ul>
-          <SidebarItem icon={signOut} text="Sair"/>
-        </ul>
-      </C.Sidebar>
-    </C.Container>
+    <C.Sidebar>
+      <img src={logo} className="logo" alt="logo da Yazo" />
+      <nav>
+        <div className="menuList">
+          <SidebarItem icon={dashboard} text="Dashboard"/>
+          <SidebarItem icon={projects} text="Meus projetos"/>
+          <SidebarItem icon={users} text="Membros"/>
+          <SidebarItem icon={config} text="Configurações"/>
+        </div>
+      </nav>
+      <ul>
+        <SidebarItem icon={signOut} text="Sair"/>
+      </ul>
+    </C.Sidebar>
+    
   )
 }
 
