@@ -26,7 +26,28 @@
   <img align="center" src ="https://user-images.githubusercontent.com/89864249/188996241-1107eb17-2399-48ca-a055-eb906d1166d4.PNG" width="800px"/>
 </div>
 
- 
+ <h2 id="rodando-localmente">Rodando localmente</h2>
+<p>Será necessário instalar o Node ou Yarn e o Git no seu dispositivo para que os comandos abaixo funcionem.</p>
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/tharsila/tharsila-yazo-front-test.git
+```
+
+Instale as dependências
+
+```bash
+  npm install ou yarn
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev ou yarn dev
+```
+
+
 <h2 id="tecnologias">:hammer_and_wrench:Tecnologias</h2>
 <p>As seguintes ferramentas foram usadas na construção do projeto:</p>
  
