@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+import styled from "styled-components"
 export const GlobalStyle = createGlobalStyle`
     * {
       margin: 0;
@@ -9,10 +9,14 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-      font-family: 'Lato', sans-serif;
+      background: #FFFFFF;
     }
 
     ul {
       list-style: none;
     }
 `;
+
+export const Container = styled.div`
+  display: flex;
+`

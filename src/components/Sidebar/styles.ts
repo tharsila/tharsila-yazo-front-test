@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  
-`
 export const Sidebar = styled.div`
   background: #FFFFFF;
+  border: 1px solid #0000001A;
   width: 235px;
   height: 100vh;
   padding: 20px 0;
@@ -17,6 +15,10 @@ export const Sidebar = styled.div`
 
   .logo {
   margin-top: 60px;
+ }
+
+ .menuList div {
+  padding: 16px 25px 16px 16px;
  }
 `
 
