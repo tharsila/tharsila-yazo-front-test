@@ -1,13 +1,17 @@
-import { useState } from 'react'
 import { GlobalStyle } from './AppStyles'
+import * as C from './AppStyles'
 import Sidebar from './components/Sidebar'
+import Search from './components/Search'
 
 function App() {
   
   return (
     <>
       <GlobalStyle/>
-      <Sidebar />
+      <C.Container>
+        <Sidebar />
+        <Search />
+      </C.Container>
     </>
   )
 }
