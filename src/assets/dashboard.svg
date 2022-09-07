@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_8672" data-name="Retângulo 8672" width="16" height="16" transform="translate(353 295)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_2839" data-name="Grupo de máscara 2839" transform="translate(-353 -295)" opacity="0.75" clip-path="url(#clip-path)">
+    <g id="chart-bar-bold" transform="translate(353 295)">
+      <rect id="Retângulo_8673" data-name="Retângulo 8673" width="16" height="16" fill="none"/>
+      <line id="Linha_85" data-name="Linha 85" x1="12.5" transform="translate(1.75 13)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25"/>
+      <path id="Caminho_2208" data-name="Caminho 2208" d="M9.375,15.75V8.25h3.5" transform="translate(-3.125 -2.75)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25"/>
+      <rect id="Retângulo_8674" data-name="Retângulo 8674" width="3.5" height="10.5" transform="translate(9.75 2.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25"/>
+      <path id="Caminho_2209" data-name="Caminho 2209" d="M4.125,17.25v-4.5h3.5" transform="translate(-1.375 -4.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25"/>
+    </g>
+  </g>
+</svg>
