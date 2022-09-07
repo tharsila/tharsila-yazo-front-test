@@ -9,6 +9,7 @@
   <ul>
    <li><a href="#sobre-o-projeto">Sobre o projeto</a></li>
    <li><a href="#layout">Layout</a></li>
+   <li><a href="#rodando-localmente">Rodando Localmente</a></li>
    <li><a href="#tecnologias">Tecnologias</a></li>
    <li><a href="#licença">Licença</a></li>
   </ul>
@@ -16,7 +17,7 @@
 <hr>
  
 <h2 id="sobre-o-projeto"> :page_with_curl:Sobre o projeto</h2>
-<p>:rocket:<p>
+<p>Desafio técnico apresentado pela Yazo, que consiste em implementar o layout proposto de forma estática.<p>
 <hr>
  
  <h2 id="layout">:art:Layout</h2>
