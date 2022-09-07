@@ -27,5 +27,11 @@ export const Table = styled.table `
     padding: 20px 0;
     font-weight: bold;
   }
+
+  td img {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 5px 5px;
+  }
   
 `

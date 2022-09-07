@@ -97,7 +97,7 @@ const Table = () => {
               <td>{item.product}</td>
               <td>{item.startProject}</td>
               <td>{item.finishProject}</td>
-              <td><SidebarItem icon={dots} type='white' /></td>
+              <td><img src={dots} alt="mais ações"/></td>
             </tr>
           ))}
         </tbody>
