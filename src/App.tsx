@@ -9,6 +9,7 @@ function App() {
     <>
       <GlobalStyle/>
       <C.Container>
+        <div className="push"></div>
         <Sidebar />
         <Search />
       </C.Container>

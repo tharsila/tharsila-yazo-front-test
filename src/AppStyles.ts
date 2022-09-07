@@ -20,4 +20,8 @@ export const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
   display: flex;
   max-width: 1365px;
+
+  .push {
+    margin-right: 250px;;
+  }
 `

@@ -12,6 +12,8 @@ export const Sidebar = styled.aside`
   justify-content: space-between;
   font-weight: bold;
   font-size: 14px;
+  position: fixed;
+  z-index: 1000;
 
   .logo {
   margin-top: 60px;
