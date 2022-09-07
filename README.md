@@ -55,7 +55,7 @@ Inicie o servidor
 <h3>Website</h3>
 <ul>
  <li><a href="https://pt-br.reactjs.org/">React</a></li>
- <li><a href="https://vitejs.dev/">TypeScript</a></li>
+ <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
  <li><a href="https://styled-components.com/t">styled-components</a></li>
   <li><a href="https://vitejs.dev/">Vite</a></li>
 </ul>
