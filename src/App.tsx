@@ -1,9 +1,14 @@
 import { useState } from 'react'
+import { GlobalStyle } from './AppStyles'
+import Sidebar from './components/Sidebar'
 
 function App() {
   
   return (
-    <h1>Hello World!</h1>
+    <>
+      <GlobalStyle/>
+      <Sidebar />
+    </>
   )
 }
 
