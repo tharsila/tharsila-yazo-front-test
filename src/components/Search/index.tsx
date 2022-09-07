@@ -1,5 +1,6 @@
 import React from 'react'
 import * as C from './styles'
+import Table from '../Table'
 import SidebarItem from '../SidebarItem'
 import filter from '../../assets/filter.svg'
 import search from '../../assets/search.svg'
@@ -22,6 +23,7 @@ const Search = () => {
           </div>
           <SidebarItem icon={plus} type='black' text='Novo projeto' />
         </C.Actions>
+        <Table />
       </C.Container>
     </>
   )
