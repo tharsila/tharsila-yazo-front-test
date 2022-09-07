@@ -38,6 +38,7 @@ ${props => {
     if (props.type === 'white') {
       return `
         border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 3px 6px #FD9F2B2F;
         border-radius: 4px;
         padding: 5px 15px;
         margin-bottom: 0;
