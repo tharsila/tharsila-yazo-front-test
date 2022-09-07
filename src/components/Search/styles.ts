@@ -8,42 +8,21 @@ export const Container = styled.main`
     font-weight: bold;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
   }
 `
 
 export const Actions = styled.div`
   display: flex;
   justify-content: space-between;
+  
   .actionsContent {
     display: flex;
     gap: 24px; 
   }
 
   .filter {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
     display: flex;
-  }
-
-  .filter div {
-    margin-bottom: 0;
-    padding: 5px 12px;
-  }
-
-  .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000000;
-    color: #FFFFFF;
-    padding: 10px 22px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  .btn div {
-    margin-bottom: 0;
   }
 
 `

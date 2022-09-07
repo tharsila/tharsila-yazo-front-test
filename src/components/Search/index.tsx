@@ -13,16 +13,14 @@ const Search = () => {
         <C.Actions>
           <div className="actionsContent">
             <div className="filter">
-              <SidebarItem icon={filter} text='Filtros'/>
+              <SidebarItem icon={filter} type='white' text='Filtros'/>
             </div>
             <C.Input>
                 <SidebarItem icon={search} />
                 <input type="text" placeholder="Pesquisar projeto"/>
             </C.Input>
           </div>
-          <div className="btn">
-            <SidebarItem icon={plus} text='Novo projeto' />
-          </div>
+          <SidebarItem icon={plus} type='black' text='Novo projeto' />
         </C.Actions>
       </C.Container>
     </>

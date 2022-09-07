@@ -10,21 +10,20 @@ import SidebarItem from '../../components/SidebarItem'
 
 
 const Sidebar = () => {
-  const [isActive, setIsActive] = useState(false)
-
+ 
   return (
     <C.Sidebar>
       <img src={logo} className="logo" alt="logo da Yazo" />
       <nav>
         <div className="menuList">
           <SidebarItem icon={dashboard} text="Dashboard"/>
-          <SidebarItem icon={projects} text="Meus projetos"/>
+          <SidebarItem icon={projects} type= 'lightRed' text="Meus projetos"/>
           <SidebarItem icon={users} text="Membros"/>
           <SidebarItem icon={config} text="Configurações"/>
         </div>
       </nav>
       <ul>
-        <SidebarItem icon={signOut} text="Sair"/>
+        <SidebarItem icon={signOut} type= 'red' text="Sair"/>
       </ul>
     </C.Sidebar>
     
