@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import * as C from './styles'
 import logo from '../../assets/logo.png'
 import dashboard from '../../assets/dashboard.svg'
@@ -10,7 +10,7 @@ import SidebarItem from '../../components/SidebarItem'
 
 
 const Sidebar = () => {
- 
+
   return (
     <C.Sidebar>
       <img src={logo} className="logo" alt="logo da Yazo" />

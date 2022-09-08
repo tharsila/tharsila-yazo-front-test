@@ -1,9 +1,7 @@
 import React from 'react'
-import SidebarItem from '../SidebarItem'
 import TableItem from '../TableItem'
 import * as C from './styles'
 import dots from '../../assets/dots.svg'
-
 
 interface InfoTable {
   name: string;
@@ -89,8 +87,8 @@ const Table = () => {
           </tr>
         </thead>
         <tbody>
-          {info.map((item) => (
-            <tr>
+          {info.map((item, index) => (
+            <tr key={index}>
               <td><input type="checkbox" /></td>
               <td><TableItem type={item.status === 'Desenvolvimento' ? 'wine' : 'yellow'} text={item.name}/></td>
               <td><TableItem type={item.status === 'Desenvolvimento' ? 'unConcluded' : 'concluded'} text={item.status}/></td>
